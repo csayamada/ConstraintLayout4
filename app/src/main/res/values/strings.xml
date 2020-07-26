@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ConstraintLayout4</string>
+
+    <string name="linear_layout_1">1–1. android:layout_width=\"0dp\" android:layout_weight=\"1\", \"2\", \"3\"</string>
+    <string name="linear_layout_2">2–1. android:layout_width=\"0dp\" android:layout_weight=\"1\", \"2\", \"3\"\nandroid:weightSum=\"10\"</string>
+    <string name="constraint_layout_1">1–2. android:layout_width=\"0dp\" app:layout_constraintWidth_percent=\"0.167\", \"0.333\", \"0.5\"</string>
+    <string name="constraint_layout_2">1–3. android:layout_width=\"0dp\" app:layout_constraintHorizontal_weight=\"1\", \"2\", \"3\" app:layout_constraintHorizontal_chainStyle=\"spread\"</string>
+    <string name="constraint_layout_3">2–2. android:layout_width=\"0dp\" app:layout_constraintHorizontal_weight=\"1\", \"2\", \"3\" app:layout_constraintHorizontal_chainStyle=\"spread\" &amp; Space</string>
+    <string name="constraint_layout_4">2–3. android:layout_width=\"0dp\" app:layout_constraintHorizontal_weight=\"1\", \"2\", \"3\" app:layout_constraintHorizontal_chainStyle=\"spread\" &amp; Space</string>
+
+</resources>

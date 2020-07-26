@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baseLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:background="#B2CBE4"
+        android:text="LinearLayout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:background="#B2CBE4"
+        android:text="@string/linear_layout_1" />
+    <include layout="@layout/layout_linear_1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:background="#B2CBE4"
+        android:text="@string/linear_layout_2" />
+    <include layout="@layout/layout_linear_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:background="#CAEB5E"
+        android:text="ConstraintLayout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:background="#CAEB5E"
+        android:text="@string/constraint_layout_1" />
+    <include layout="@layout/layout_constraint_1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:background="#CAEB5E"
+        android:text="@string/constraint_layout_2" />
+    <include layout="@layout/layout_constraint_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:background="#CAEB5E"
+        android:text="@string/constraint_layout_3" />
+    <include layout="@layout/layout_constraint_3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:background="#CAEB5E"
+        android:text="@string/constraint_layout_4" />
+    <include layout="@layout/layout_constraint_4" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#CAEB5E"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/txtC4Start"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/txtC41"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rect_frame"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:text="30dp" />
+
+    <TextView
+        android:id="@+id/txtC41"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txtC4Start"
+        app:layout_constraintEnd_toStartOf="@id/txtC42"
+        app:layout_constraintHorizontal_weight="1"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rect_frame"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtC42"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txtC41"
+        app:layout_constraintEnd_toStartOf="@id/txtC43"
+        app:layout_constraintHorizontal_weight="2"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rect_frame"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtC43"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txtC42"
+        app:layout_constraintEnd_toStartOf="@id/txtC4End"
+        app:layout_constraintHorizontal_weight="3"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rect_frame"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtC4End"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txtC43"
+        app:layout_constraintEnd_toStartOf="@id/spaceC44"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rect_frame"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:text="50dp" />
+
+    <Space
+        android:id="@+id/spaceC44"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txtC4End"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="4"
+        android:background="@drawable/rect_frame"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
